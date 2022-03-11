@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style type="text/css">
+        fieldset{float: left;
+
+        }
+        .clear{
+            clear: both;
+        }</style>
+</head>
+
+<body>
+    <h2>This is Html Assignment3</h2>
+    <form action="backend.java"></form>
+    <label  for="firstname" >First Name :</label>
+    <div>
+        <input tabindex="1" type="text" name="fname" id="firstname">
+    </div>
+    <br>
+    <br>
+    <label  for="lastname" >Last Name :</label>
+    <div>
+        <input tabindex="2" type="text" name="lname" id="firstname">
+    </div>
+    <br>
+    <br>
+    <label  for="email" >Email :</label>
+    <div>
+         <input tabindex="3" type="email" name="myemail" id="email">
+    </div>
+    <br>
+    <br>
+    <label  for="contactno" >Contact Number :</label>
+    <div>
+         <input tabindex="4" type="tel" name="mynumber" id="contactno">
+    </div>
+    <br>
+    <br>
+    <label  for="address" >Address :</label>
+    <div>
+        <textarea tabindex="5" name="myaddress" rows="5" cols="15" id="address" ></textarea>
+    </div>
+    <br>
+    <br>
+    <label  for="username" >Username :</label>
+    <div>
+        <input tabindex="6" type="text" name="myusername" id="username"> 
+    </div>
+    <br>
+    <br>
+    <label  for="password" >Password :</label>
+    <div>
+        <input tabindex="7" type="password" name="mypassword" id="password"> 
+    </div>
+    <br>
+    <br>
+    <label for="gender">Gender :</label>
+    <div>
+         <input tabindex="8"  type="radio" name="myname">Male <br> <input type="radio" name="myname">Female
+    
+    </div>
+    <br>
+    <br>
+    <div>
+        <label for="qual">Qualification</label>
+        <select tabindex="9" name="myqualification" id="qual">
+            <option value="default">--Select--</option>
+            <option value="Bachelors">BTech</option>
+            <option value="ssc" >SSC</option>
+            <option value="hsc" >HSC</option>
+        </select>
+       
+    </div>
+    <br>
+    <br>
+    <div>
+        <label for="exp">Experience</label>
+        <select tabindex="10" name="myexperience" id="exp">
+            <option value="default">--Select--</option>
+            <option value="zero">Fresher</option>
+            <option value="one" >1</option>
+            <option value="two" >2</option>
+            <option value="twoplus" >2+</option>
+        </select>
+        </div>
+        <br>
+        <br>
+        <label for="cl"> Coding languages :</label>
+        <br>
+        <div>
+            
+            <input tabindex="11" type="checkbox" name="mycheckbox1">C/C++
+            <br>
+            <input type="checkbox" name="mycheckbox2">Java
+            <br>
+            <input type="checkbox" name="mycheckbox3">C#
+            <br>
+            <input type="checkbox" name="mycheckbox4">PHP
+            <br>
+            <input type="checkbox" name="mycheckbox5">Python
+        </div>
+        <br>
+    <div >
+        <input tabindex="12" type="submit" value="Submit now">
+
+    </div>
+
+    </form>
+</body>
+</html>
