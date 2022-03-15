@@ -25,9 +25,11 @@ hr{
     margin-top: 50px;
     border: none;
     border-top: 1px dotted purple;
+    margin-left: 235px;
 }
 #lastpara{
     font-style: italic;
+    margin-left: 235px;
     width: 150px;
 }
 
