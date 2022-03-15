@@ -1,0 +1,37 @@
+
+body
+{
+    background-color: #D8DA3D;
+    padding: 20px;
+    
+}
+.sidebar p{
+
+    background-color: white;
+    color: #80007E;
+    width: 150px;
+    padding: 5px;
+    margin: 8px;
+    border-right: 15px solid black;
+}
+
+.main{
+    position: absolute;
+    right: 300px;
+    top: 0px;
+    color: #80007E;
+}
+hr{
+    margin-top: 50px;
+    border: none;
+    border-top: 1px dotted purple;
+}
+#lastpara{
+    font-style: italic;
+    width: 150px;
+}
+
+
+
+     
+
