@@ -1,0 +1,55 @@
+.Main{
+    border: 1px solid black;
+    width: 800px;
+    height: 500px;
+    margin: 10px auto;
+    padding: 10px;
+}
+.Top{
+    border: 1px solid black;
+    background-color: #FF9999;
+    
+}
+#toppara1{
+    font-size: 35px;
+    margin: 10px 90px;
+}
+
+#toppara2{
+    font-size: 22px;
+    margin: 40px 50px;
+}
+
+.BottomLeft{
+    border: 1px solid black;
+    background-color: yellow;
+    width: 581px;
+    height: 290px;
+    padding: 5px 0px 5px 5px;
+    float: left;
+}
+.BottomRight{
+    border: 1px solid black;
+    background-color: #ECECFB;
+    width: 200px;
+    height: 290px;
+    padding: 5px;
+    text-align: center;
+    float: right; 
+    
+}
+#BRpara1{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#leftimage{
+      height: 290px;
+      width: 575px;
+      
+}
+#rightimage{
+      height: 50%;
+      width: 50%;
+}
+
