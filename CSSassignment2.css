@@ -1,0 +1,81 @@
+
+body
+{
+    background-color: #D8DA3D;
+    padding: 20px;
+    font: optional;
+}
+
+.sidebar p{
+
+    background-color: white;
+    color: #80007E;
+    width: 150px;
+    padding: 5px;
+    margin: 8px;
+    
+
+}
+
+.html, .js{
+    border-right: 15px solid #FF7F00;
+
+}
+.css, .php{
+    border-right: 15px solid  #0000FF;
+
+}
+
+.main{
+    position: absolute;
+    right: 300px;
+    top: 0px;
+    color: #80007E;
+    
+}
+
+hr{
+    margin-top: 50px;
+    border: none;
+    border-top: 1px dotted purple;
+    margin-left: 235px;
+}
+.bottom{
+    position: absolute;
+    margin-left: 235px;
+    width: 60%;
+
+}
+
+p#para1{
+    border: 1px dashed black;
+    font-size: large;
+    padding: 8px;
+
+}
+
+p#para2{
+    border: 1px dashed red;
+    font-size: large;
+    padding: 8px;
+    text-align: end;
+
+}
+
+p#para3{
+    border: 1px dotted #0000FF;
+    font-size: large;
+    padding: 8px;
+    text-align: center;
+
+}
+
+p#para4{
+    margin-top: 40px;
+    font-style: italic;
+    padding: 5px;
+    width: 150px;
+}
+
+     
+
