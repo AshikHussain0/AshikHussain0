@@ -1,0 +1,35 @@
+.FirstImage{ 
+    width: 600px;
+    height: 190px;
+    margin: auto;
+    font-weight: bold;
+    border: 1px solid black;
+    margin-bottom: 20px; 
+
+} 
+#First{
+    width: 600px;
+    height: 140px;
+}
+
+.SecondImage{
+    width: 600px;
+    height: 190px;
+    margin: auto;
+    font-weight: bold ;
+    border: 2px solid black;
+}
+#Second{
+    width: 600px;
+    height: 140px;
+}
+.ThirdImage{
+    font-weight: bold;
+}
+    #Third{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+    height: 150px;
+} 
