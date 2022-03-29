@@ -60,7 +60,7 @@ function multiplyNumber(result) {
 function divideNumber(result) {
 
     try {
-        if(Number.isSafeInteger(parseInt(result[0])) && Number.isSafeInteger(parseInt(result[1]))){
+        if(Number.isSafeInteger(parseInt(result[0])) && Number.isSafeInteger(parseInt(result[1])) && (parseInt(result[1] === 0))){
             exp = parseInt(result[0]) / parseInt(result[1]);
             }
             else{
